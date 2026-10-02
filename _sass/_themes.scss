@@ -360,3 +360,8 @@ div.profile .more-info p {
   display: block;
   margin: 0;
 }
+
+/* About page: pull the photo (and address beneath it) up so its top lines up with the subtitle line */
+.post-header + article .profile {
+  margin-top: -34px;
+}
