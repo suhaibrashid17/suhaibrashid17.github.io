@@ -351,7 +351,7 @@ h1.post-title:has(> span.font-weight-bold),
 }
 
 /* About page: capitalize the "news" and "latest posts" section headings */
-.post article h2 > a[style*="color: inherit"] {
+.post article h2 > a {
   text-transform: capitalize;
 }
 
