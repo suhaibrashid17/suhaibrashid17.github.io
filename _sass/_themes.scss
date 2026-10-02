@@ -349,3 +349,14 @@ h1.post-title:has(> span.font-weight-bold),
 .navbar-brand.title {
   font-weight: 700 !important;
 }
+
+/* About page: capitalize the "news" and "latest posts" section headings */
+.post article h2 > a[style*="color: inherit"] {
+  text-transform: capitalize;
+}
+
+/* About page: each line of the address under the photo sits on its own line */
+div.profile .more-info p {
+  display: block;
+  margin: 0;
+}
