@@ -6,7 +6,7 @@ subtitle: PhD Student, Computer Science · Tulane University
 
 profile:
   align: right
-  image: M_Suhaib_Rashid.jpg
+  image: M_Suhaib_Rashid_v2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Paul Hall</p>
