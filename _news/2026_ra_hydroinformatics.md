@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a Research Assistant in the Hydroinformatics Lab under Dr. Ibrahim Demir.
+Started as a Research Assistant in the Hydroinformatics Lab, Tulane University.
