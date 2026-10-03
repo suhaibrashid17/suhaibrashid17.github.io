@@ -361,7 +361,11 @@ div.profile .more-info p {
   margin: 0;
 }
 
-/* About page: pull the photo (and address beneath it) up so its top lines up with the subtitle line */
-.post-header + article .profile {
-  margin-top: -34px;
+/* About page: pull the photo (and address beneath it) up so its top lines up with the subtitle line.
+   Only once the photo floats beside the text (matches the theme's own 576px breakpoint) — on mobile
+   the photo is a full-width stacked block and a negative margin shoves it over the subtitle instead. */
+@media (min-width: 576px) {
+  .post-header + article .profile {
+    margin-top: -34px;
+  }
 }
